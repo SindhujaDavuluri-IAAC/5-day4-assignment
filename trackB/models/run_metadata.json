@@ -1,0 +1,26 @@
+{
+  "selected_experiment": "frozen + class weights",
+  "seed": 42,
+  "train_images": 1552,
+  "validation_images": 306,
+  "test_images": 788,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch_version": "2.14.1+cu126",
+  "torchvision_version": "0.29.1+cu126",
+  "python_version": "3.14.5",
+  "exported_at_utc": "2026-11-14T11:52:16.758884+00:00",
+  "test_metrics": {
+    "accuracy": 0.5571065989847716,
+    "balanced accuracy": 0.5556742765108906,
+    "macro F1": 0.5509602995716657
+  },
+  "baseline_metrics": {
+    "accuracy": 0.19035532994923857,
+    "balanced accuracy": 0.16666666666666666,
+    "macro F1": 0.05330490405117271
+  },
+  "checkpoint_sha256": "14478db17436d8a7c56700aebb689931a5f56ecbecf4ccc5a833afad6c8c12a1",
+  "checkpoint_bytes": 44790859,
+  "export_validation": "Strict reload into a fresh CPU model and real-image inference passed."
+}

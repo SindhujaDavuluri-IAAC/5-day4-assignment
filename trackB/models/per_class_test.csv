@@ -1,0 +1,7 @@
+,images,precision,recall,F1
+baroque,150,0.507,0.493,0.5
+classical,112,0.461,0.366,0.408
+gothic,150,0.594,0.527,0.558
+modern,127,0.793,0.843,0.817
+renaissance,99,0.419,0.545,0.474
+romanesque,150,0.538,0.56,0.549

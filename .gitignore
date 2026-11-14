@@ -8,11 +8,20 @@ venv/
 # data: downloaded by the notebook, not committed
 data/*
 !data/.gitkeep
+trackA/data/*
+!trackA/data/.gitkeep
+!trackA/data/README.md
+trackB/data/*
+!trackB/data/.gitkeep
+!trackB/data/README.md
 
 # model weights and published data: on Hugging Face, not on GitHub
 *.pt
 *.onnx
 models/*.joblib
+trackA/models/*.joblib
+trackB/models/*.joblib
+__pycache__/
 dataset/images/
 dataset/labels/
 test_download/
